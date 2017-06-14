@@ -1,8 +1,3 @@
-<?php 
-error_reporting(E_ERROR | E_WARNING | E_PARSE | E_NOTICE); 
-ini_set('display_errors', '1')
-?>
-
 <!DOCTYPE html>
 <!--[if IE 9]><html class="ie9"><![endif]-->
 <!--[if gt IE 9]><!-->
@@ -90,7 +85,7 @@ ini_set('display_errors', '1')
               </tr>
               <tr>
                 <td>Pod Port</td>
-                <td><?php echo $_SERVER['SERVER_PORT'] ?</td>
+                <td><?php echo $_SERVER['SERVER_PORT'] ?></td>
               </tr>
             </tbody>
           </table>
