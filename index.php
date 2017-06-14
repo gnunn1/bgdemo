@@ -6,7 +6,7 @@
 
 <!--<![endif]-->
   <head>
-    <title>Basic 7 - PatternFly</title>
+    <title>Basic - PatternFly</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="shortcut icon" href="../dist/img/favicon.ico">
     <!-- iPad retina icon -->
