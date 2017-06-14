@@ -85,7 +85,7 @@
               </tr>
               <tr>
                 <td>Pod Port</td>
-                <td><?php echo $_SERVER['SERVER_PORT'] ?></td>
+                <td><?php echo $_SERVER['SERVER_PORT'] ?</td>
               </tr>
             </tbody>
           </table>
