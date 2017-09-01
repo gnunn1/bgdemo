@@ -26,7 +26,6 @@ node {
 
 node {
   stage 'deployInTesting'
-  sleep 10
   openshiftTag(namespace: 'dev', sourceStream: 'flower',  sourceTag: 'latest', destinationNamespace: 'dev',  destinationStream: 'flower', destinationTag: 'promoteToQA')
   openshiftDeploy(namespace: 'test', deploymentConfig: 'flower')
   openshiftScale(namespace: 'test', deploymentConfig: 'flower',replicaCount: '3')
